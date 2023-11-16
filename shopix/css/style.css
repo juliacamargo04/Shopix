@@ -92,32 +92,96 @@ box-shadow: 5px 5px 5px rgb(253, 147, 8);
 .paineis{
     position: relative;
     width: 100%;
-    height: 400px;
+   /* height: 400px;*/
     background-color: rgb(247, 205, 115);
     float: left;
     margin-top: 30px;
 }
+.paineis h2{
+    text-align: center;
+    color: rgb(25, 124, 218);
+}
+
 .novidades{
     position: relative;
     float: left;
     width: 50%;
-    background-color: rgb(231, 164, 63);
-    height: 400px;
+    background-color: rgb(241, 192, 59);
+    /*height: 400px;*/
+}
+.novidades ol{
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    margin-left: -40px;
+}
+.novidades ol li{
+    width: 50%;
+    float: left;
+}
+.novidades figure{
+    background-color: rgb(236, 157, 22);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.novidades a{
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(239, 140, 104);
+    color: rgb(20, 54, 104);
+}
+.novidades figure:hover{
+    background-color: rgb(58, 18, 217);
+    color: rgb(244, 134, 8);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    transition: 0,9s;
+    transform: scale(1.2) rotate(-5deg);
+
 }
 .novidades img{
-    width: 25%;
-    height: 100%;
+    width: 81%;
+}
+
+.mais_vendidos ol{
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    margin-left: -40px;
+}
+.mais_vendidos ol li{
+    width: 50%;
+    float: left;
+}
+.mais_vendidos figure{
+    background-color: rgb(236, 157, 22);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.mais_vendidos a{
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(239, 140, 104);
+    color: rgb(20, 54, 104);
+}
+.mais_vendidos figure:hover{
+    background-color: rgb(58, 18, 217);
+    color: rgb(244, 134, 8);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    transition: 0,9s;
+    transform: scale(1.2) rotate(-5deg);
+
 }
 .mais_vendidos{
     position: relative;
     float: left;
     width: 50%;
     background-color: rgb(241, 192, 59);
-    height: 400px;
+   /* height: 400px;*/
 }
 .mais_vendidos img{
-    width: 25%;
-    height: 100%;
+    width: 51%;
 }
 
 footer{

@@ -17,18 +17,66 @@
 <img src="img/sale-carrinho.jpg" alt="imagem carrinho compras">
 </section>
 <div class="paineis">
-    <section class="novidades">
+    
+<section class="novidades">
         <h2>Novidades</h2>
         <ol>
             <li>
                 <a href="#">
                     <figure>
                         <img src="img/carrinho-mouse.jpg" alt="carrinho">
-                        <figcaption>carrinho por R$ 100,00</figcaption>
+                        <figcaption>Carrinho por R$ 100,00</figcaption>
+</figure>
+</a>
+</li>
+
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-mouse.jpg" alt="carrinho">
+                        <figcaption>Carrinho por R$ 100,00</figcaption>
+</figure>
+</a>
+</li>
+
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-mouse.jpg" alt="carrinho">
+                        <figcaption>Carrinho por R$ 100,00</figcaption>
+</figure>
+</a>
+</li>
+
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-mouse.jpg" alt="carrinho">
+                        <figcaption>Carrinho por R$ 100,00</figcaption>
+</figure>
+</a>
+</li>
+
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-mouse.jpg" alt="carrinho">
+                        <figcaption>Carrinho por R$ 100,00</figcaption>
+</figure>
+</a>
+</li>
+
+
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-mouse.jpg" alt="carrinho">
+                        <figcaption>Carrinho por R$ 100,00</figcaption>
 </figure>
 </a>
 </li>
 </ol>
+
 </section>
 <section class="mais_vendidos">
     <h2> Mais Vendidos</h2>
@@ -37,10 +85,56 @@
                 <a href="#">
                     <figure>
                         <img src="img/carrinho-lindo.jpg" alt="carrinho">
-                        <figcaption>carrão por R$ 200,00</figcaption>
+                        <figcaption>Carrão por R$ 200,00</figcaption>
 </figure>
 </a>
 </li>
+
+<li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-lindo.jpg" alt="carrinho">
+                        <figcaption>Carrão por R$ 200,00</figcaption>
+</figure>
+</a>
+</li>
+
+<li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-lindo.jpg" alt="carrinho">
+                        <figcaption>Carrão por R$ 200,00</figcaption>
+</figure>
+</a>
+</li>
+
+<li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-lindo.jpg" alt="carrinho">
+                        <figcaption>Carrão por R$ 200,00</figcaption>
+</figure>
+</a>
+</li>
+
+<li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-lindo.jpg" alt="carrinho">
+                        <figcaption>Carrão por R$ 200,00</figcaption>
+</figure>
+</a>
+</li>
+
+<li>
+                <a href="#">
+                    <figure>
+                        <img src="img/carrinho-lindo.jpg" alt="carrinho">
+                        <figcaption>Carrão por R$ 200,00</figcaption>
+</figure>
+</a>
+</li>
+
 </ol>
 </section>
 </div>
