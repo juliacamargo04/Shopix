@@ -1,0 +1,248 @@
+body{
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(77, 136, 245);
+}
+
+header{
+    position: relative;
+    background: linear-gradient(rgb(28, 166, 230), rgb(27, 112, 223));
+    height: 200px;
+}
+
+header img{
+    
+    margin: 20px;
+}
+
+.busca{
+position:relative;
+float: right;
+background-color: rgb(89, 162, 226);
+margin:20px;
+padding: 20px;
+font-weight: bold;
+text-transform: uppercase;
+width: 250px;
+color: rgb(8, 31, 51);
+border-radius: 15px;
+box-shadow: 3px 3px 3px rgb(9, 52, 133);
+
+}
+.busca input[type=search] {
+width: 180px;
+border-radius: 10px;
+
+}
+.busca h2 {
+    text-shadow: 2px 2px 2px rgb(86, 140, 248);
+}
+
+.busca button{
+background-image: url(../img/busca.png); 
+background-repeat: no-repeat;
+border:none;
+width: 20px;
+height: 20px;
+text-indent: -9999px;
+background-color:rgb(86, 162, 226) ;
+}
+
+.menu_opcoes{
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+}
+.menu_opcoes ul{
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+font-size: 20px;
+overflow: hidden;
+background-color: rgb(117, 183, 245);
+border-radius: 50px;
+}
+
+.menu_opcoes ul li{
+    display: inline;
+    margin-left: 0px;
+    border-right: 2px solid rgb(28, 166, 230);
+    border-radius: 50px;
+}
+.menu_opcoes li:last-child{
+    border-right : none;
+}
+
+.menu_opcoes a {
+    color: rgb(4, 0, 240);
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.menu_opcoes li a:hover{
+background-color:rgb(255, 255, 255)
+color rgb(0, 0, 0);
+border-radius: 50px;
+box-shadow: 5px 5px 5px rgb(253, 147, 8);
+}
+
+.menu li:hover{
+    background-color: rgb(231, 167, 82);
+}
+.paineis{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(247, 205, 115);
+    float: left;
+    margin-top: 30px;
+}
+.novidades{
+    position: relative;
+    float: left;
+    width: 50%;
+    background-color: rgb(231, 164, 63);
+    height: 400px;
+}
+.novidades img{
+    width: 25%;
+    height: 100%;
+}
+.mais_vendidos{
+    position: relative;
+    float: left;
+    width: 50%;
+    background-color: rgb(241, 192, 59);
+    height: 400px;
+}
+.mais_vendidos img{
+    width: 25%;
+    height: 100%;
+}
+
+footer{
+    clear: both;
+    background: linear-gradient(rgb(66, 120, 238), rgb(157, 208, 250));
+    height: 700px;
+}
+
+footer img {
+    width: 100px;
+}
+.social{
+    position:relative;
+    float:right;
+    top:0;
+    right: 0;
+    list-style-type: none;
+
+}
+.social li {
+    float: left;
+    margin-left: 30px;
+}
+.social a {
+width: 32px;
+height: 32px;
+display: block;
+text-indent: -99999px;
+}
+
+.corpo{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(66, 120, 238);
+}
+.menu{
+    position: relative;
+    float: left;
+    width: 25%;
+    background-color: rgb(125, 162, 241);
+    height: 300px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(20, 54, 104);
+    transform:rotate(-10deg) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 10px;
+}
+.menu li{
+background-color: rgb(166, 190, 243);
+margin-bottom: 5px;
+padding: 5px 10px;
+border-radius: 15px;
+width: 85%;
+text-align: center;
+}
+
+.menu a{
+    color: rgb(54, 76, 199);
+    text-align: center;
+    text-decoration: 3px 3px rgb(104, 117, 187);
+   
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu h2{
+    color: rgb(16, 16, 184);
+    text-shadow: 3px 3px 
+    rgb(84, 109, 252);
+    text-align: center;
+}
+.destaque{
+    position: relative;
+    width: 70%;
+    height: 400px;
+    float: right;
+    background-color: rgb(54, 57, 236);
+}
+
+.destaque img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.social a[href*="facebook.com"]{
+    background-image: url(../img/facebook.png);
+}
+.social a[href*="instagram.com"]{
+    background-image: url(../img/instagram.png);
+}
+.social a[href*="twitter.com"]{
+    background-image: url(../img/twitter.png);
+}
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .busca {
+        width: 220px;
+    }
+    .busca input[type=search] {
+        width: 180px;
+    }
+    .menu_opcoes{
+        width: 400px;
+   }
+   .menu_opcoes a{
+       padding: 4px 8px;
+   }
+   }
+@media only screen and (max-width: 600px){
+    .busca {
+        width: 110px;
+    }
+    .busca input[type=search] {
+        width: 80px;
+    }
+    .menu_opcoes{
+         width: 340px;
+    
+    }
+    .menu_opcoes a{
+        padding: 1px 2px;
+    }
+    }
